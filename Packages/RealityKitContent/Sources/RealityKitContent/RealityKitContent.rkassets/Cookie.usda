@@ -1,0 +1,103 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 1.0 (409.60.6)"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def "cookie3D" (
+        active = true
+        prepend apiSchemas = ["MaterialBindingAPI"]
+        references = @cookie3D.usdz@
+    )
+    {
+        rel material:binding = None (
+            bindMaterialAs = "weakerThanDescendants"
+        )
+        float3 xformOp:scale = (0.005, 0.005, 0.005)
+        float3 xformOp:translate = (0, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Materials"
+        {
+            reorder nameChildren = ["Default_Material", "Chips"]
+            over "Default_Material"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "surfaceShader"
+                {
+                    color3f inputs:diffuseColor = (0.8173526, 0.7447929, 0.3671751) (
+                        colorSpace = "srgb_displayp3"
+                    )
+                }
+            }
+
+            def Material "Chips" (
+                references = None
+            )
+            {
+                color3f inputs:Chip = (0, 0, 0) (
+                    customData = {
+                        dictionary realitykit = {
+                            float2 sizeInSubgraph = (133, 53)
+                            int stackingOrderInSubgraph = 0
+                        }
+                    }
+                )
+                token outputs:mtlx:surface.connect = </Root/cookie3D/Materials/Chips/PreviewSurface.outputs:out>
+                token outputs:realitykit:vertex
+                token outputs:surface.connect = </Root/cookie3D/Materials/Chips/surfaceShader.outputs:surface>
+                float2 ui:nodegraph:realitykit:subgraphOutputs:pos = (0, 109.5)
+                float2 ui:nodegraph:realitykit:subgraphOutputs:size = (181.5, 99)
+
+                def Shader "surfaceShader" (
+                    active = true
+                )
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    color3f inputs:diffuseColor = (0.6951514, 0.57990223, 0.41170487) (
+                        colorSpace = "srgb_displayp3"
+                    )
+                    token outputs:surface
+                }
+
+                def Shader "PreviewSurface" (
+                    active = false
+                )
+                {
+                    uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+                    token outputs:out
+                    float2 ui:nodegraph:node:pos = (-255, 105)
+                    float2 ui:nodegraph:node:size = (148.5, 199)
+                }
+            }
+        }
+
+        def RealityKitComponent "Collider"
+        {
+            uint group = 1
+            uniform token info:id = "RealityKit.Collider"
+            uint mask = 4294967295
+            token type = "Trigger"
+
+            def RealityKitStruct "Shape"
+            {
+                float3 extent = (62, 58, 8.705882)
+                token shapeType = "Box"
+
+                def RealityKitStruct "pose"
+                {
+                    float3 position = (49, 74, 4.352941)
+                }
+            }
+        }
+    }
+}
+

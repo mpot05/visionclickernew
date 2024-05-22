@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7060E9D2B6AAD3F005D39D2 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = E7060E9C2B6AAD3F005D39D2 /* RealityKitContent */; };
+		E7060E9F2B6AAD3F005D39D2 /* VisionyesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7060E9E2B6AAD3F005D39D2 /* VisionyesApp.swift */; };
+		E7060EA12B6AAD3F005D39D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7060EA02B6AAD3F005D39D2 /* ContentView.swift */; };
+		E7060EA32B6AAD40005D39D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7060EA22B6AAD40005D39D2 /* Assets.xcassets */; };
+		E7060EA62B6AAD40005D39D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7060EA52B6AAD40005D39D2 /* Preview Assets.xcassets */; };
+		E7060EB12B6AAD41005D39D2 /* VisionyesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7060EB02B6AAD41005D39D2 /* VisionyesTests.swift */; };
+		E7C2C5C12B7D1B8C00B53DDF /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = E7C2C5C02B7D1B8C00B53DDF /* Fire.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7060EAD2B6AAD41005D39D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7060E8F2B6AAD3F005D39D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7060E962B6AAD3F005D39D2;
+			remoteInfo = Visionyes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7060E972B6AAD3F005D39D2 /* Visionyes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Visionyes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7060E9B2B6AAD3F005D39D2 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		E7060E9E2B6AAD3F005D39D2 /* VisionyesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionyesApp.swift; sourceTree = "<group>"; };
+		E7060EA02B6AAD3F005D39D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E7060EA22B6AAD40005D39D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7060EA52B6AAD40005D39D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E7060EA72B6AAD40005D39D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7060EAC2B6AAD41005D39D2 /* VisionyesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionyesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7060EB02B6AAD41005D39D2 /* VisionyesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionyesTests.swift; sourceTree = "<group>"; };
+		E7C2C5C02B7D1B8C00B53DDF /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7060E942B6AAD3F005D39D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7060E9D2B6AAD3F005D39D2 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7060EA92B6AAD41005D39D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7060E8E2B6AAD3F005D39D2 = {
+			isa = PBXGroup;
+			children = (
+				E7060E992B6AAD3F005D39D2 /* Visionyes */,
+				E7060E9A2B6AAD3F005D39D2 /* Packages */,
+				E7060EAF2B6AAD41005D39D2 /* VisionyesTests */,
+				E7060E982B6AAD3F005D39D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7060E982B6AAD3F005D39D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7060E972B6AAD3F005D39D2 /* Visionyes.app */,
+				E7060EAC2B6AAD41005D39D2 /* VisionyesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7060E992B6AAD3F005D39D2 /* Visionyes */ = {
+			isa = PBXGroup;
+			children = (
+				E7060E9E2B6AAD3F005D39D2 /* VisionyesApp.swift */,
+				E7060EA02B6AAD3F005D39D2 /* ContentView.swift */,
+				E7C2C5C02B7D1B8C00B53DDF /* Fire.sks */,
+				E7060EA22B6AAD40005D39D2 /* Assets.xcassets */,
+				E7060EA72B6AAD40005D39D2 /* Info.plist */,
+				E7060EA42B6AAD40005D39D2 /* Preview Content */,
+			);
+			path = Visionyes;
+			sourceTree = "<group>";
+		};
+		E7060E9A2B6AAD3F005D39D2 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				E7060E9B2B6AAD3F005D39D2 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		E7060EA42B6AAD40005D39D2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E7060EA52B6AAD40005D39D2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E7060EAF2B6AAD41005D39D2 /* VisionyesTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7060EB02B6AAD41005D39D2 /* VisionyesTests.swift */,
+			);
+			path = VisionyesTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7060E962B6AAD3F005D39D2 /* Visionyes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7060EB42B6AAD41005D39D2 /* Build configuration list for PBXNativeTarget "Visionyes" */;
+			buildPhases = (
+				E7060E932B6AAD3F005D39D2 /* Sources */,
+				E7060E942B6AAD3F005D39D2 /* Frameworks */,
+				E7060E952B6AAD3F005D39D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Visionyes;
+			packageProductDependencies = (
+				E7060E9C2B6AAD3F005D39D2 /* RealityKitContent */,
+			);
+			productName = Visionyes;
+			productReference = E7060E972B6AAD3F005D39D2 /* Visionyes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7060EAB2B6AAD41005D39D2 /* VisionyesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7060EB72B6AAD41005D39D2 /* Build configuration list for PBXNativeTarget "VisionyesTests" */;
+			buildPhases = (
+				E7060EA82B6AAD41005D39D2 /* Sources */,
+				E7060EA92B6AAD41005D39D2 /* Frameworks */,
+				E7060EAA2B6AAD41005D39D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7060EAE2B6AAD41005D39D2 /* PBXTargetDependency */,
+			);
+			name = VisionyesTests;
+			productName = VisionyesTests;
+			productReference = E7060EAC2B6AAD41005D39D2 /* VisionyesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7060E8F2B6AAD3F005D39D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					E7060E962B6AAD3F005D39D2 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					E7060EAB2B6AAD41005D39D2 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = E7060E962B6AAD3F005D39D2;
+					};
+				};
+			};
+			buildConfigurationList = E7060E922B6AAD3F005D39D2 /* Build configuration list for PBXProject "Visionyes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7060E8E2B6AAD3F005D39D2;
+			productRefGroup = E7060E982B6AAD3F005D39D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7060E962B6AAD3F005D39D2 /* Visionyes */,
+				E7060EAB2B6AAD41005D39D2 /* VisionyesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7060E952B6AAD3F005D39D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C2C5C12B7D1B8C00B53DDF /* Fire.sks in Resources */,
+				E7060EA62B6AAD40005D39D2 /* Preview Assets.xcassets in Resources */,
+				E7060EA32B6AAD40005D39D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7060EAA2B6AAD41005D39D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7060E932B6AAD3F005D39D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7060EA12B6AAD3F005D39D2 /* ContentView.swift in Sources */,
+				E7060E9F2B6AAD3F005D39D2 /* VisionyesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7060EA82B6AAD41005D39D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7060EB12B6AAD41005D39D2 /* VisionyesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7060EAE2B6AAD41005D39D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7060E962B6AAD3F005D39D2 /* Visionyes */;
+			targetProxy = E7060EAD2B6AAD41005D39D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E7060EB22B6AAD41005D39D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		E7060EB32B6AAD41005D39D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		E7060EB52B6AAD41005D39D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Visionyes/Preview Content\"";
+				DEVELOPMENT_TEAM = F6266H32KA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JaxApps.Visionyes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		E7060EB62B6AAD41005D39D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Visionyes/Preview Content\"";
+				DEVELOPMENT_TEAM = F6266H32KA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JaxApps.Visionyes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		E7060EB82B6AAD41005D39D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JaxApps.VisionyesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Visionyes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Visionyes";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		E7060EB92B6AAD41005D39D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JaxApps.VisionyesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Visionyes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Visionyes";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7060E922B6AAD3F005D39D2 /* Build configuration list for PBXProject "Visionyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7060EB22B6AAD41005D39D2 /* Debug */,
+				E7060EB32B6AAD41005D39D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7060EB42B6AAD41005D39D2 /* Build configuration list for PBXNativeTarget "Visionyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7060EB52B6AAD41005D39D2 /* Debug */,
+				E7060EB62B6AAD41005D39D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7060EB72B6AAD41005D39D2 /* Build configuration list for PBXNativeTarget "VisionyesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7060EB82B6AAD41005D39D2 /* Debug */,
+				E7060EB92B6AAD41005D39D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E7060E9C2B6AAD3F005D39D2 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E7060E8F2B6AAD3F005D39D2 /* Project object */;
+}
